@@ -84,6 +84,10 @@ nlp_political_manifestos.ipynb
 - The notebook is designed to run on Google Colab
 - Results may vary depending on the dataset used
 
+## Notebook Preview
+
+A PDF version of the notebook is available in this repository.
+
 ## Author
 
 Gabriele Tersigni  
