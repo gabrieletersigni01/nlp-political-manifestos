@@ -68,7 +68,23 @@ This project has several limitations:
 
 ## How to run
 
-1. Install dependencies:
+1. Install the required libraries:
 
-```bash
 pip install -r requirements.txt
+
+2. Open the notebook:
+
+nlp_political_manifestos.ipynb
+
+3. Upload the dataset when prompted and run all cells
+
+## Notes
+
+- The dataset is not included in this repository
+- The notebook is designed to run on Google Colab
+- Results may vary depending on the dataset used
+
+## Author
+
+Gabriele Tersigni  
+ENSAE Paris
