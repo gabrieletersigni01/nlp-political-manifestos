@@ -39,7 +39,6 @@ All notebooks are designed to work with manual dataset upload.
 ---
 ## Repository Structure
 
-```
 .
 ├── 1_data_exploration.ipynb
 ├── 1_data_exploration.ipynb-pdf
