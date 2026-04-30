@@ -38,11 +38,13 @@ For this project, we focus exclusively on the 1988 legislative elections to ensu
 ```
 .
 ├── 1_data_exploration.ipynb
+├── 1_data_exploration.ipynb-pdf
 ├── 2_semantic_density.ipynb
+├── 2_semantic_density.ipynb-pdf
 ├── 3a_similarity_analysis.ipynb
-├── 3b_similarity_analysis.pdf
+├── 3b_similarity_analysis-pdf
 ├── 4_advanced_analysis.ipynb
-├── 4_advanced_analysis.pdf
+├── 4_advanced_analysis-pdf
 ├── report_notebook.pdf
 ├── requirements.txt
 └── README.md
@@ -81,13 +83,15 @@ For this project, we focus exclusively on the 1988 legislative elections to ensu
 
 ---
 
-## Important Note
+## Notebooks and PDFs
 
-Due to GitHub rendering limitations, notebooks 3 and 4 may not display correctly in preview.
+All notebooks are fully viewable directly on GitHub.
 
-👉 Please refer to the **PDF versions** for a complete and clean view of the results.
+PDF versions are also provided for:
 
-The original notebooks are still provided and can be downloaded and executed locally or in Google Colab.
+* easier reading
+* quick review of results
+* stable formatting when sharing or submitting
 
 ---
 
@@ -117,4 +121,5 @@ The results show that:
 
 Gabriele Tersigni
 ENSAE Paris
+
 
