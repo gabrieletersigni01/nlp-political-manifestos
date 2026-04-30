@@ -1,6 +1,6 @@
-# NLP Political Manifestos Analysis
+# NLP Analysis of Political Manifestos
 
-This project analyzes political manifestos from the French 1988 legislative elections using Natural Language Processing (NLP) techniques.
+This project analyzes political manifestos from the 1988 French legislative elections using Natural Language Processing (NLP) techniques.
 
 ---
 
@@ -8,10 +8,10 @@ This project analyzes political manifestos from the French 1988 legislative elec
 
 The main objectives of this project are to:
 
-* explore textual characteristics of political manifestos
-* quantify semantic density ("wooden language")
-* compare similarity methods (TF-IDF vs embeddings)
-* uncover latent structure through clustering
+- explore the textual characteristics of political manifestos  
+- quantify semantic density as a proxy for "wooden language"  
+- compare lexical and semantic similarity methods (TF-IDF vs embeddings)  
+- uncover latent structure in the corpus through clustering  
 
 ---
 
@@ -22,21 +22,23 @@ The analysis is based on the **Archelec corpus**, which contains political manif
 The dataset includes several thousand documents written by candidates from different political parties and regions, providing a diverse representation of political discourse.
 
 The texts were digitized using Optical Character Recognition (OCR), which introduces noise such as:
+- spelling errors  
+- inconsistent formatting  
+- missing or corrupted characters  
 
-* spelling errors
-* inconsistent formatting
-* missing or corrupted characters
+This noise is an important aspect of the dataset, as it reflects real-world conditions of historical textual data.
 
-Despite these limitations, the dataset offers a valuable and realistic representation of political communication.
+⚠️ **The dataset is not included in this repository** due to its size and format.
 
-For this project, we focus exclusively on the 1988 legislative elections to ensure consistency in the analysis.
+To run the notebooks:
+- download the dataset separately  
+- upload it manually when prompted (e.g., in Google Colab)
+
+All notebooks are designed to work with manual dataset upload.
 
 ---
 
 ## Repository Structure
-
-```
-.
 ├── 1_data_exploration.ipynb
 ├── 1_data_exploration.ipynb-pdf
 ├── 2_semantic_density.ipynb
@@ -48,38 +50,32 @@ For this project, we focus exclusively on the 1988 legislative elections to ensu
 ├── report_notebook.pdf
 ├── requirements.txt
 └── README.md
-```
 
 ---
 
 ## Notebooks
 
 ### 1. Data Exploration
-
-* dataset overview
-* text statistics
-* document length distribution
+- dataset overview  
+- text statistics  
+- document length distribution  
 
 ### 2. Semantic Density
-
-* definition of semantic density
-* analysis of informational content
-* identification of "wooden language" patterns
+- definition of semantic density  
+- analysis of informational content  
+- identification of "wooden language" patterns  
 
 ### 3. Similarity Analysis
-
-* TF-IDF vs embedding-based similarity
-* document ranking task
-* qualitative comparison of retrieved texts
-* PCA visualization
-* similarity score distribution
+- TF-IDF vs embedding-based similarity  
+- document ranking task  
+- qualitative comparison of retrieved texts  
+- similarity score distribution  
 
 ### 4. Advanced Analysis
-
-* clustering using K-Means
-* PCA-based visualization of clusters
-* qualitative cluster interpretation
-* intra-cluster similarity analysis
+- clustering using K-Means  
+- PCA-based visualization  
+- qualitative cluster interpretation  
+- intra-cluster similarity analysis  
 
 ---
 
@@ -88,20 +84,16 @@ For this project, we focus exclusively on the 1988 legislative elections to ensu
 All notebooks are fully viewable directly on GitHub.
 
 PDF versions are also provided for:
-
-* easier reading
-* quick review of results
-* stable formatting when sharing or submitting
+- easier reading  
+- quick review of results  
+- consistent formatting when sharing or submitting  
 
 ---
 
 ## Requirements
 
 Install the required libraries with:
-
-```
 pip install -r requirements.txt
-```
 
 ---
 
@@ -110,16 +102,16 @@ pip install -r requirements.txt
 This project combines quantitative and qualitative approaches to analyze political discourse.
 
 The results show that:
-
-* embedding-based methods capture deeper semantic relationships than TF-IDF
-* political manifestos exhibit structured patterns in semantic space
-* clustering reveals meaningful groupings in rhetorical and thematic content
+- embedding-based methods capture deeper semantic relationships than TF-IDF  
+- political manifestos exhibit structured patterns in semantic space  
+- clustering reveals meaningful groupings in rhetorical style and thematic content  
 
 ---
 
 ## Author
 
-Gabriele Tersigni
-ENSAE Paris
+Gabriele Tersigni  
+ENSAE Paris  
+Machine Learning for NLP
 
 
