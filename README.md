@@ -39,9 +39,11 @@ All notebooks are designed to work with manual dataset upload.
 ---
 ## Repository Structure
 
-1_data_exploration.ipynb
-1_data_exploration.ipynb-pdf
-2_semantic_density.ipynb
+```
+.
+├── 1_data_exploration.ipynb
+├── 1_data_exploration.ipynb-pdf
+├── 2_semantic_density.ipynb
 ├── 2_semantic_density.ipynb-pdf
 ├── 3a_similarity_analysis.ipynb
 ├── 3b_similarity_analysis-pdf
@@ -50,7 +52,6 @@ All notebooks are designed to work with manual dataset upload.
 ├── report_notebook.pdf
 ├── requirements.txt
 └── README.md
-
 ---
 
 ## Notebooks
