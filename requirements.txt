@@ -1,6 +1,7 @@
-numpy
 pandas
-scikit-learn
-transformers
-torch
+numpy
 matplotlib
+seaborn
+scikit-learn
+sentence-transformers
+torch
